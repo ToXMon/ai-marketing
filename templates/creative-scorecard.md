@@ -1,6 +1,6 @@
 # Creative Scorecard
 
-One card per creative. Score 1–5 per dimension with one line of evidence each.
+One card per creative. Judge six dimensions 1–5 with one line of evidence each; the gate is the overall score out of 10.
 
 - **Creative:** [name / link]
 - **Brief:** [campaign + ICP + persona + angle + hypothesis]
@@ -15,13 +15,16 @@ One card per creative. Score 1–5 per dimension with one line of evidence each.
 | Proof | | |
 | Offer / CTA | | |
 | Swipe fit | | |
-| **Total** | **___ / 30** | |
 
-**Decision:** SCALE (24+) / ITERATE ONCE (18–23) / KILL (under 18)
+**Overall score: ___ / 10**
 
-**If iterate:** the single weakest dimension and the one change to make, re-score date ____.
+**Decision:** SHIP (8–10) / ONE LOOP OF FIXES (5–7) / KILL (under 5)
+
+**If fixes:** the single weakest dimension and the one change to make, re-score date ____.
 
 **If kill:** reason (one line).
+
+**Regulated-claims check (if applicable):** pass / fail + violations found.
 
 **What to repeat next time (one line):**
 

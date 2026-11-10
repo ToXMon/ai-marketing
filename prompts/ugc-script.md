@@ -27,4 +27,4 @@ Rules:
 - End with: the hook rewritten 3 ways (same pain, different wording), so the hook itself can be A/B tested.
 ```
 
-After it runs: generate the avatar video + motion graphics, score it with the creative director, and log it in the experiment log. Human creators (Tribe / Sideshift) get the same brief — the agent is the creator manager.
+After it runs: generate the avatar video following the pipeline in `skills/ugc-ad-creation/SKILL.md` (FAL voice clone → MP3 → Seedance with script + reference image + MP3 → 480p + ffmpeg upscale → word-by-word verification → Mirage Tesseract captions/motion graphics), score it with the creative director (8/10 gate), and log it in the experiment log. Human creators (Tribe / Sideshift) get the same brief — the agent is the creator manager.

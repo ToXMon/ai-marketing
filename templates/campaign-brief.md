@@ -20,6 +20,6 @@ Fill this in before any agent touches the campaign. No brief, no build.
 
 - [ ] ICP + persona attached, sources cited
 - [ ] Tracking in place (UTMs, landing page, follow-up) — see Continuous Coverage
-- [ ] Every creative scored by the creative director (24+ to scale)
+- [ ] Every creative scored by the creative director (8/10+ to ship)
 - [ ] Human approved final creative + copy + spend
 - [ ] Experiment-log entry created per creative

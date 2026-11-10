@@ -2,7 +2,7 @@
 
 One row per creative per test. Update at launch, at review, and at kill/scale. No row, no learning.
 
-| Creative | Campaign | Angle / pain | Format | Score (/30) | Launched | Spend | Impr. | CTR | Conv. | CAC / ROAS | Decision | Reason (one line) |
+| Creative | Campaign | Angle / pain | Format | Score (/10) | Launched | Spend | Impr. | CTR | Conv. | CAC / ROAS | Decision | Reason (one line) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | _example: Static A — "4 tools, 1 HQ"_ | Remote HQ launch | Too many tools | Static 1080 | 25 | 2026-11-10 | | | | | | LIVE | |
 | | | | | | | | | | | | | |
@@ -18,5 +18,5 @@ One row per creative per test. Update at launch, at review, and at kill/scale. N
 
 ## Calibration check (weekly)
 
-- Did high scorers (24+) convert better than low scorers this week? Y / N / inconclusive
+- Did high scorers (8+) convert better than low scorers this week? Y / N / inconclusive
 - If N: proposed scorecard fix:

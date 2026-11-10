@@ -9,19 +9,21 @@ One skill turns a brand URL into five researched, on-brand static ads. The whole
 
 ## The flow
 
-1. **Brand URL** — read the site: style, voice, offer, pricing, proof.
+1. **Brand URL** — read the site: style, voice, offer, pricing, proof. Or hand the skill a markdown brand style guide (fonts, colours) instead of relying on site extraction.
 2. **Site style** — extract the visual system (colours, type, imagery) so generated ads look like the brand, not like stock AI.
 3. **Ad Library** — read what competitors run on Meta/Google/LinkedIn/TikTok. What angles, hooks, and formats are live right now?
 4. **Reddit pains and outcomes** — scrape what customers actually say: the pain in their words, the outcome they want. This is the copy source. No Reddit (or equivalent community) read, no ad.
 5. **5 concepts** — five distinct concepts, each with hook, angle, visual direction, and copy. Different pains, different outcomes, different formats — not five versions of one idea.
-6. **Image generation** — generate at 1080×1080 (and 4:5 / 9:16 variants where the placement needs them) with the image model.
+6. **Image generation** — generate at 1080×1080 (and 4:5 / 9:16 variants where the placement needs them) with ChatGPT Image 2.5 — the best Schneider has seen for this. Model choice is swappable: through the Kai AI unified API you can say "change this to Nano Banana" and swap models.
 7. **Upload to Meta as a new ad set** — through the ad API, with tracking (UTMs) attached. Log the upload in the experiment log.
+
+In the episode the command is `/static ads` + the brand URL, and brands built live included Idea Browser, Late Checkout, Cursor, AIMÉ Leon Dore, David (protein bar), Robinhood, and Teenage Engineering. Idea Browser's five concepts on air: "Stop guessing which idea to build"; "Build what people already search for"; "Your ChatGPT ideas are generic"; "Don't waste six months on a dud"; "1,948 ideas worth building."
 
 Full prompt: `prompts/static-ad-brief.md`.
 
 ## The swipe warehouse
 
-A standing library of creative references — ads that work, tagged by hook, format, angle, audience, and outcome. Every new brief draws on it; every result (winner or loser) goes back into it. Creative without references is guessing; with a warehouse it is remixing what already works.
+A standing library of creative references — ads that work, tagged by hook, format, angle, audience, and outcome. A swipe file made sense pre-AI; now you need *thousands* of swipe files. Every new brief draws on it; every result (winner or loser) goes back into it. Creative without references is guessing; with a warehouse it is remixing what already works. Tools mentioned on the episode for managing it: Sublime.app, and Cosmos if you want it multiplayer.
 
 Seed it with: the brand's own past winners, competitors' long-running ads (long-running = working), and the concepts that scored highest from the creative director. Tag every entry with the fields in `prompts/swipe-warehouse-entry.md`.
 

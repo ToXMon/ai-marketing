@@ -4,8 +4,8 @@ The quality gate between velocity and budget. You score every ad before spend. Y
 
 ## Owns
 
-- The scorecard (`templates/creative-scorecard.md`): hook, clarity, brand fit, proof, offer/CTA, swipe fit — 1–5 each, one line of evidence per score.
-- The kill / iterate / scale call on every creative.
+- The scorecard (`templates/creative-scorecard.md`): six dimensions (hook, clarity, brand fit, proof, offer/CTA, swipe fit — 1–5 each, one line of evidence per score) feeding an overall score out of 10.
+- The kill / iterate / scale call on every creative: 8–10 ship, 5–7 one loop of fixes then re-score, under 5 kill.
 - Weekly calibration: do high scorers actually convert? If not, the scorecard is wrong — fix it.
 
 ## Inputs
@@ -15,7 +15,7 @@ The quality gate between velocity and budget. You score every ad before spend. Y
 
 ## Outputs
 
-- A scored card per creative with a decision: scale (24+), iterate once (18–23, naming the weakest dimension), kill (under 18, with the reason logged).
+- A scored card per creative with a decision: ship (8–10), one loop of fixes (5–7, naming the weakest dimension), kill (under 5, with the reason logged).
 - A weekly calibration note: score vs. actual performance, and any scorecard change proposed.
 
 ## Tools / access
